@@ -1,7 +1,7 @@
 // Actions
 
 $(document).ready(function() {
-    document.addEventListener("diviceready", function() {
+    document.addEventListener("deviceready", function() {
         var onSuccess = function(position) {
             initialize(position.coords.latitude, position.coords.longitude)
         };
